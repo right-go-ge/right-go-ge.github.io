@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <meta name="keywords" content="gitalk,duoshuo,多说,评论组件,凹凸实验室,aotulabs,comment,plugin,github,issue,react,preact,component">
-    <meta name="description" content="A modern comment component based on Github Issue and Preact.凹凸实验室出品的一款基于 Github Issue 和 Preact 开发的评论插件">
-    <title>Gitalk Demo | Aotu.io「凹凸实验室」</title>
+    <meta name="keywords" content="一人团队">
+    <meta name="description" content="一人团队">
+    <title>「一人团队」</title>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <style type="text/css">
@@ -80,6 +80,12 @@
       }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
+    <style>
+      /* 隐藏Gitalk版本号 */
+      .gt-container .gt-header-controls-tip {
+        display: none !important;
+      }
+    </style>
     <script>
       var _hmt = _hmt || [];
       (function() {
@@ -94,7 +100,7 @@
     <div class="container">
       <div class="hero">
         <div>
-          <a href="https://github.com/gitalk/gitalk" class="logo">
+          <a href="https://github.com/right-go-ge" class="logo">
             <svg width="50px" height="50px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="landing" transform="translate(-606.000000, -124.000000)" fill-rule="nonzero" fill="#6190E8">
@@ -111,18 +117,15 @@
             </svg>
           </a>
           <h1>
-            GITALK
+            一人团队
           </h1>
         </div>
 
-         <h2 class="hero-intro">一个基于 Github Issue 和 Preact 开发的评论插件</h2>
-         <div class="hero-buttons">
-          <a href="https://github.com/gitalk/gitalk#install" class="btn-begin">开始使用</a>
-          <a href="https://github.com/gitalk/gitalk" class="btn-github">GITHUB</a>
-         </div>
+         <h2 class="hero-intro">导演椅上的独角戏，『一人团队』把脑内剧场变成4K现场</h2>
+
       </div>
       <p class="demo-title">
-        <span class="demo">演示</span>
+        <span class="demo">留言讨论</span>
       </p>
       <div id="gitalk-container"></div>
     </div>
