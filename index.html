@@ -14,11 +14,15 @@
         margin: 0;
         padding: 0;
       }
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
       .container {
         margin: 0 auto;
         padding-bottom: 60px;
         max-width: 720px;
-        color: #6190E8;
+        color: #90caf9;
         font-family: "PingFang SC", Helvetica, "Microsoft YaHei", Arial, sans-serif;
       }
       .hero {
@@ -38,11 +42,13 @@
         font-size: 32px;
         font-weight: 500;
         vertical-align: bottom;
+        color: #90caf9;
       }
       .hero-intro {
         margin: 28px 0;
         font-size: 20px;
         font-weight: 300;
+        color: #bbdefb;
       }
       .hero-buttons a {
         display: inline-block;
@@ -54,14 +60,14 @@
       .btn-begin {
         padding: 0 20px;
         min-width: 80px;
-        color: white;
-        background-color: #6190E8;
+        color: #121212;
+        background-color: #90caf9;
       }
       .btn-github {
         margin-left: 36px;
         width: 120px;
-        color: #6190E8;
-        border: 1px solid #6190E8;
+        color: #90caf9;
+        border: 1px solid #90caf9;
       }
       .demo-title {
         text-align: center;
@@ -70,8 +76,9 @@
         display: inline-block;
         padding-bottom: 10px;
         font-size: 20px;
-        border-bottom: 1px dashed #6190E8;
+        border-bottom: 1px dashed #90caf9;
         width: 120px;
+        color: #bbdefb;
       }
       @media (max-width: 720px) {
         .container {
@@ -84,6 +91,36 @@
       /* 隐藏Gitalk版本号 */
       .gt-container .gt-header-controls-tip {
         display: none !important;
+      }
+      /* Gitalk暗色模式样式 */
+      .gt-container {
+        color: #e0e0e0 !important;
+      }
+      .gt-container .gt-header-textarea,
+      .gt-container .gt-header-preview,
+      .gt-container .gt-comment-content {
+        background-color: #1e1e1e !important;
+        color: #e0e0e0 !important;
+        border-color: #333 !important;
+      }
+      .gt-container .gt-btn {
+        background-color: #90caf9 !important;
+        color: #121212 !important;
+        border-color: #90caf9 !important;
+      }
+      .gt-container .gt-btn-preview {
+        background-color: transparent !important;
+        color: #90caf9 !important;
+        border-color: #333 !important;
+      }
+      .gt-container a {
+        color: #90caf9 !important;
+      }
+      .gt-container .gt-comment-body {
+        color: #e0e0e0 !important;
+      }
+      .gt-container .gt-comment-admin .gt-comment-content {
+        background-color: rgba(144, 202, 249, 0.1) !important;
       }
     </style>
     <script>
